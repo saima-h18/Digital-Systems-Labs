@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/ProgramFolder/intelFPGA_lite/16.1
+Eg14_lab2
+Z0 w1552327916
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 d//campus.mcgill.ca/EMF/ELE/shanee/Desktop/ECSE325/lab2
+Z5 8\\campus.mcgill.ca\EMF\ELE\shanee\Desktop\ECSE325\lab2\g14_lab2.vhd
+Z6 F\\campus.mcgill.ca\EMF\ELE\shanee\Desktop\ECSE325\lab2\g14_lab2.vhd
+l0
+L6
+VD9h=PMYUaGK[Gk>TjFDkI0
+!s100 VjzeOU7h6BD1mPA`fgD343
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1552333307
+!i10b 1
+Z9 !s108 1552333307.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|\\campus.mcgill.ca\EMF\ELE\shanee\Desktop\ECSE325\lab2\g14_lab2.vhd|
+Z11 !s107 \\campus.mcgill.ca\EMF\ELE\shanee\Desktop\ECSE325\lab2\g14_lab2.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aarchlab2
+R1
+R2
+R3
+DEx4 work 8 g14_lab2 0 22 D9h=PMYUaGK[Gk>TjFDkI0
+l20
+L16
+VO@:eBWCEj3_jOFV@GMY4^2
+!s100 Q_K<]f>ZFWj365MfG;d[]3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eg14_mac_tb
+Z14 w1552333305
+Z15 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R1
+R2
+R3
+R4
+Z16 8\\campus.mcgill.ca\EMF\ELE\shanee\Desktop\ECSE325\lab2\g14_MAC_tb.vhd
+Z17 F\\campus.mcgill.ca\EMF\ELE\shanee\Desktop\ECSE325\lab2\g14_MAC_tb.vhd
+l0
+L7
+Vcg`MOF]1B?TXn9]f5BV^Y0
+!s100 lgjnZkI>gXF0fFlhjiBAP3
+R7
+32
+Z18 !s110 1552333308
+!i10b 1
+Z19 !s108 1552333308.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|\\campus.mcgill.ca\EMF\ELE\shanee\Desktop\ECSE325\lab2\g14_MAC_tb.vhd|
+Z21 !s107 \\campus.mcgill.ca\EMF\ELE\shanee\Desktop\ECSE325\lab2\g14_MAC_tb.vhd|
+!i113 1
+R12
+R13
+Atest
+R15
+R1
+R2
+R3
+Z22 DEx4 work 10 g14_mac_tb 0 22 cg`MOF]1B?TXn9]f5BV^Y0
+l37
+L10
+V^X32S^OiQo:zFgnY9P>`f1
+!s100 dbd78FPd@7Bc:o]Sl[Jkk3
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
