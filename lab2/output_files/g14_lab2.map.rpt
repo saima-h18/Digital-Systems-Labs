@@ -1,5 +1,5 @@
 Analysis & Synthesis report for g14_lab2
-Mon Mar 11 16:35:41 2019
+Wed Mar 13 14:22:43 2019
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -44,13 +44,13 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Mar 11 16:35:41 2019       ;
+; Analysis & Synthesis Status     ; Successful - Wed Mar 13 14:22:43 2019       ;
 ; Quartus Prime Version           ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
 ; Revision Name                   ; g14_lab2                                    ;
 ; Top-level Entity Name           ; g14_lab2                                    ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 23                                          ;
+; Total registers                 ; 45                                          ;
 ; Total pins                      ; 55                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
@@ -182,7 +182,7 @@ agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 12        ;
+; Estimate of Logic utilization (ALMs needed) ; 23        ;
 ;                                             ;           ;
 ; Combinational ALUT usage for logic          ; 1         ;
 ;     -- 7 input functions                    ; 0         ;
@@ -191,16 +191,16 @@ agreement for further details.
 ;     -- 4 input functions                    ; 0         ;
 ;     -- <=3 input functions                  ; 1         ;
 ;                                             ;           ;
-; Dedicated logic registers                   ; 23        ;
+; Dedicated logic registers                   ; 45        ;
 ;                                             ;           ;
 ; I/O pins                                    ; 55        ;
 ;                                             ;           ;
 ; Total DSP Blocks                            ; 1         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 23        ;
-; Total fan-out                               ; 189       ;
-; Average fan-out                             ; 1.40      ;
+; Maximum fan-out                             ; 45        ;
+; Total fan-out                               ; 233       ;
+; Average fan-out                             ; 1.48      ;
 +---------------------------------------------+-----------+
 
 
@@ -209,7 +209,7 @@ agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
-; |g14_lab2                  ; 1 (1)               ; 23 (23)                   ; 0                 ; 1          ; 55   ; 0            ; |g14_lab2           ; g14_lab2    ; work         ;
+; |g14_lab2                  ; 1 (1)               ; 45 (45)                   ; 0                 ; 1          ; 55   ; 0            ; |g14_lab2           ; g14_lab2    ; work         ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -231,7 +231,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 23    ;
+; Total registers                              ; 45    ;
 ; Number of registers using Synchronous Clear  ; 22    ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -246,9 +246,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 23                          ;
+; arriav_ff             ; 45                          ;
 ;     SCLR              ; 22                          ;
-;     plain             ; 1                           ;
+;     plain             ; 23                          ;
 ; arriav_lcell_comb     ; 1                           ;
 ;     normal            ; 1                           ;
 ;         1 data inputs ; 1                           ;
@@ -256,7 +256,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; boundary_port         ; 55                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 1.00                        ;
-; Average LUT depth     ; 0.03                        ;
+; Average LUT depth     ; 0.02                        ;
 +-----------------------+-----------------------------+
 
 
@@ -275,7 +275,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
-    Info: Processing started: Mon Mar 11 16:35:25 2019
+    Info: Processing started: Wed Mar 13 14:22:31 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off g14_lab2 -c g14_lab2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -297,15 +297,15 @@ Warning (21074): Design contains 10 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "N[7]" File: P:/ECSE325/lab2/g14_lab2.vhd Line: 9
     Warning (15610): No output dependent on input pin "N[8]" File: P:/ECSE325/lab2/g14_lab2.vhd Line: 9
     Warning (15610): No output dependent on input pin "N[9]" File: P:/ECSE325/lab2/g14_lab2.vhd Line: 9
-Info (21057): Implemented 79 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 101 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 32 input pins
     Info (21059): Implemented 23 output pins
-    Info (21061): Implemented 23 logic cells
+    Info (21061): Implemented 45 logic cells
     Info (21062): Implemented 1 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 12 warnings
-    Info: Peak virtual memory: 784 megabytes
-    Info: Processing ended: Mon Mar 11 16:35:41 2019
-    Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:27
+    Info: Peak virtual memory: 4885 megabytes
+    Info: Processing ended: Wed Mar 13 14:22:43 2019
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:21
 
 
